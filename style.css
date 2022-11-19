@@ -117,3 +117,12 @@ h2.text-center {
 .emailadrs :link {
   color: var(--primary-color);
 }
+
+footer {
+  margin-top: 20px;
+}
+
+.contact-box {
+  background: #eff5f5;
+  padding: 10px;
+}
