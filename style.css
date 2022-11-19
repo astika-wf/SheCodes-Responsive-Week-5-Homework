@@ -1,0 +1,72 @@
+:root {
+  --primary-color: #e0144c;
+  --secondary-color: white;
+  --box-shadow: 5px 5px #888888;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+h1.text-center {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+h2.text-center {
+  margin-top: 75px;
+  font-size: 50px;
+}
+
+.front {
+  text-align: center;
+  color: #3c4048;
+  font-size: 25px;
+}
+
+.flag {
+  box-shadow: 5px 5px #888888;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.button :link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.button :hover {
+  color: var(--primary-color);
+  background-color: azure;
+}
+
+.a {
+  margin: 40px;
+  margin-bottom: 100px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  box-shadow: var(--box-shadow);
+  background-color: var(--primary-color);
+}
+
+.img-fluid {
+  box-shadow: 50px 20px 75px #eef1ff;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 700px) {
+  .text-center {
+    position: relative;
+    top: -60px;
+    font-size: 1em;
+  }
+}
